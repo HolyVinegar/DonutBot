@@ -43,7 +43,7 @@ async function updateData(path, value) { await db.ref(path).update(value); }
 // ==========================
 const CONFIG = {
   // New (env variable)
-  TOKEN: process.env.DISCORD_TOKEN,
+  DISCORD_TOKEN: process.env.DISCORD_TOKEN,
   CLIENT_ID: "1483658430450368563",
   GUILD_ID: "1483660541418278922",
   ADMIN_ID: "749512363664867370",
